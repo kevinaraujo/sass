@@ -1,5 +1,11 @@
 /* _button.scss */
 
+$btn_color_default: white;
+$btn_color_blue: #00f0ff;
+$btn_color_red: red;
+$btn_color_orange: orange;
+$btn_color_green: green;
+
 .btn-default{
 	padding:10px;
 	font-size:14px;
@@ -8,7 +14,7 @@
 	border: 1px solid gray;
 	border-radius: 4px;
 	color:#000;
-	background-color: white;
+	background-color: $btn_color_default;
 
 	&:hover{
 		opacity: 0.9;
@@ -17,33 +23,35 @@
 
 .btn-blue{
 	@extend .btn-default;
+	
+	$btn_color_blue: blue !default;
 
-	border: 1px solid blue;
+	border: 1px solid $btn_color_blue;
 	color:#fff;
-	background-color: blue;
+	background-color: $btn_color_blue;
 }
 
 .btn-red{
 	@extend .btn-default;
 
-	border: 1px solid red;
+	border: 1px solid $btn_color_red;
 	color:#fff;
-	background-color: red;
+	background-color: $btn_color_red;
 }
 
 .btn-orange{
 	@extend .btn-default;
 
-	border: 1px solid orange;
+	border: 1px solid $btn_color_orange;
 	color:#fff;
-	background-color: orange;
+	background-color: $btn_color_orange;
 }
 
 .btn-green{
 	@extend .btn-default;
 
-	border: 1px solid green;
+	border: 1px solid $btn_color_green;
 	color:#fff;
-	background-color: green;
+	background-color: $btn_color_green;
 
 }
