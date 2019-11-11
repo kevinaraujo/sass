@@ -1,3 +1,4 @@
+/* _main.scss */
 header {
   padding: 20px;
   text-size: 10px;
@@ -30,6 +31,7 @@ header ul li a:hover {
   color: red;
 }
 
+/* _button.scss */
 .btn-default, .btn-green, .btn-orange, .btn-red, .btn-blue {
   padding: 10px;
   font-size: 14px;
@@ -69,6 +71,6 @@ header ul li a:hover {
   background-color: green;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
