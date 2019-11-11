@@ -30,7 +30,45 @@ header ul li a:hover {
   color: red;
 }
 
-/*# sourceMappingURL=main.css.map */
+.btn-default, .btn-green, .btn-orange, .btn-red, .btn-blue {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid gray;
+  border-radius: 4px;
+  color: #000;
+  background-color: white;
+}
+
+.btn-default:hover, .btn-green:hover, .btn-orange:hover, .btn-red:hover, .btn-blue:hover {
+  opacity: 0.9;
+}
+
+.btn-blue {
+  border: 1px solid blue;
+  color: #fff;
+  background-color: blue;
+}
+
+.btn-red {
+  border: 1px solid red;
+  color: #fff;
+  background-color: red;
+}
+
+.btn-orange {
+  border: 1px solid orange;
+  color: #fff;
+  background-color: orange;
+}
+
+.btn-green {
+  border: 1px solid green;
+  color: #fff;
+  background-color: green;
+}
+
 /*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
